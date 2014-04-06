@@ -1,0 +1,25 @@
+{
+  "name": "viceroy-nedb",
+  "version": "2.0.0-dev",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./test/*.js | ./node_modules/.bin/tspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Battlefy/Viceroy-NeDB.git"
+  },
+  "author": "Battlefy <info@battlefy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Battlefy/Viceroy-NeDB/issues"
+  },
+  "dependencies": {
+    "nedb": "^0.10.5"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3",
+    "tap-spec": "^0.1.8"
+  }
+}
